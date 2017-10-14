@@ -8,7 +8,7 @@ var playlist = {
 //key-value pair to the playlist object. The function should return the whole playlist.
 function updatePlaylist(playlist, artist, title) {
   playlist[artist] = title;
-  return playlist
+  return playlist;
 }
 
 //The body of the function should delete the key-value pair
