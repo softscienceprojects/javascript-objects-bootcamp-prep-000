@@ -9,11 +9,12 @@ var playlist = {
 function updatePlaylist(playlist, artistName, songTitle) {
   playlist[artistName] = songTitle;
   return playlist;
-}
+};
 
 //The body of the function should delete the key-value pair
 // from the playlist and return the updated playlist.
 function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName;
-  return playlist;
-}
+};
+
+return playlist;
