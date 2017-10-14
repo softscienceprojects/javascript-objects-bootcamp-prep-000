@@ -11,8 +11,6 @@ function updatePlaylist(playlist, artist, title) {
   return playlist;
 }
 
-playlist;
-
 //The body of the function should delete the key-value pair
 // from the playlist and return the updated playlist.
 function removeFromPlaylist(playlist, artistName) {
